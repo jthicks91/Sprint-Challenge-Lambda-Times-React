@@ -16,7 +16,7 @@ const Cards = props => {
 
 // Make sure you include prop types for all of your incoming props
 
-//using isRequired to make sure the correct object is always passed and a warning will be shown if not;
+//using isRequired to make sure the correct data-type is always passed and a warning will be shown if not;
 
 Cards.propTypes = {
   cards: PropTypes.array.isRequired

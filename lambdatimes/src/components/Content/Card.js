@@ -16,6 +16,7 @@ const Card = props => {
 };
 
 // Make sure to include PropTypes.
+//using isRequired to make sure the correct data-type is always passed and a warning will be shown if not;
 
 Card.propTypes = {
   card: PropTypes.shape({
